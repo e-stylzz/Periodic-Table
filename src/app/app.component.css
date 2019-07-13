@@ -37,6 +37,7 @@ main {
   padding: 5px;
   height: 70px;
   width: 70px;
+  overflow: hidden;
 }
 
 .symbol {
@@ -64,7 +65,7 @@ main {
   background-color: plum;
 }
 .TransitionMetal {
-  background-color: skyblue;
+  background-color: lightblue;
 }
 .PostTransitionMetal {
   background-color: skyblue;
@@ -77,4 +78,7 @@ main {
 }
 .NonMetal {
   background-color: darkorange;
+}
+.Other {
+  background-color: grey;
 }
