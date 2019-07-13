@@ -1,0 +1,80 @@
+h1,
+span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  border: 2px solid darkgrey;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: grey;
+  color: white;
+}
+header {
+  text-align: center;
+}
+
+main {
+  width: 1646px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.table {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(18, 82px);
+  grid-template-rows: repeat(9, 1fr);
+  /* justify-items: stretch; */
+  /* align-items: stretch; */
+  /* max-width: 1440px; */
+  margin: 0 auto;
+}
+
+.element {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  height: 70px;
+  width: 70px;
+}
+
+.symbol {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.name {
+  font-size: 14px;
+  text-align: center;
+}
+
+.AlkaliMetal {
+  background-color: yellow;
+}
+.AlkalineEarth {
+  background-color: orange;
+}
+
+.Lanthanoid {
+  background-color: peachpuff;
+}
+.Actinoid {
+  background-color: plum;
+}
+.TransitionMetal {
+  background-color: skyblue;
+}
+.PostTransitionMetal {
+  background-color: skyblue;
+}
+.Metalloid {
+  background-color: skyblue;
+}
+.NobleGas {
+  background-color: deepskyblue;
+}
+.NonMetal {
+  background-color: darkorange;
+}
